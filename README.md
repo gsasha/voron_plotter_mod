@@ -48,11 +48,16 @@ Include the provider plot.cfg. Modify according to your printer (see comments in
 ###### Preparing Plotter file:
 
 Plotter file must include `PLOT_START` as starter command.
+For inkscape, copy the "inkscape/header" and "inkscape/footer" files to the directory where you put the output file.
 
-Run the gcode through preprocess.py to make it acceptable by klipper.
+Run the gcode through inkscape/preprocess.py to make it acceptable by klipper.
 
 ###### Running:
 
 :warning: **!!!!! IMPORTANT !!!!!!** To prevent head crash, run the plotter with printer doors open.
 
 Install the adapter (but not the pen) on the head. Run your generated gcode file.
+
+The head should run the homing sequence and stop in the air. Install the pen so that it touches the bed, attach a page to be plotted using masking tape and unpause the printer.
+
+Enjoy!
