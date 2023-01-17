@@ -25,9 +25,10 @@ There are three printed parts: modified SB body, mounted plate and pen holder.
 
 1. Print all the parts normally. The pen holder should be placed upside-down, this way it can be printed without supports.
 
-2. Install heatsets as indicated in ![](https://github.com/gsasha/plotter-mod/images/1_edited.png),
-![](https://github.com/gsasha/plotter-mod/images/2_edited.png),
-![](https://github.com/gsasha/plotter-mod/images/3_edited.png). Pay especial attention to the plate - it is very important for alignment that the inserts are flush or even a bit deep.
+2. Install heatsets as indicated in ![](https://github.com/gsasha/voron_plotter_mod/images/1_edited.png),
+![](https://github.com/gsasha/voron_plotter_mod/images/2_edited.png),
+![](https://github.com/gsasha/voron_plotter_mod/images/3_edited.png).
+Pay especial attention to the plate - it is very important for alignment that the inserts are flush or even a bit deep.
 
 3. Install the SB body onto the printer. The rest of the mechanism can be connected to it and disconnected again at will.
 
