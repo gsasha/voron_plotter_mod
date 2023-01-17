@@ -43,12 +43,16 @@ Pay especial attention to the plate - it is very important for alignment that th
 7. Insert a screw into the heatset in the pen holder.
 
 ###### Changing printer.cfg
+Include the provider plot.cfg. Modify according to your printer (see comments inside).
 
 ###### Preparing Plotter file:
 
+Plotter file must include `PLOT_START` as starter command.
+
+Run the gcode through preprocess.py to make it acceptable by klipper.
+
 ###### Running:
 
-###### Pictures:
-![](https://github.com/gsasha/plotter-mod/images/1_edited.png)
-![](https://github.com/gsasha/plotter-mod/images/2_edited.png)
-![](https://github.com/gsasha/plotter-mod/images/3_edited.png)
+:warning: **!!!!! IMPORTANT !!!!!!** To prevent head crash, run the plotter with printer doors open.
+
+Install the adapter (but not the pen) on the head. Run your generated gcode file.
