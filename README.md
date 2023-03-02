@@ -6,24 +6,25 @@
 
 ###### Bom:
 - 7 M3x8
-- 5 M3 heatset inserts
+- 7 M3 heatset inserts
 - A very long M3 screw - including a long smooth part. 80mm is a good variant.
 - A long spring. One harvested from a pen will be fine.
 - 2 M3 washers
-- MGW7L 100mm linear slide. Any other slide can be used, it's just one that was at hand.
+- MGW12C 100mm linear slide. Any other slide can be used, it's just one that was at hand.
 - Sharpie pen.
+- Vinyl cutter knife.
 
 ###### Description:
 This is a plotter extension for Voron StealthBurner.
 It uses a modified SB main body that includes two additional heatset inserts that the plotter attachment can be screwed to and removed easily.
 
-The STLs supplied are tuned for MGW7L linear slide and regular Sharpie pen. However, most any slide and any pen can be used.
+The STLs supplied are tuned for MGW12C linear slide and regular Sharpie pen. However, most any slide and any pen can be used - LMK if you want STLs for different linear slides.
 
 ###### Assembly:
 
 There are three printed parts: modified SB body, mounted plate and pen holder.
 
-1. Print all the parts normally. The pen holder should be placed upside-down, this way it can be printed without supports.
+1. Print all the parts normally. The pen holder can be placed upside-down, this way it can be printed without supports. Otherwise, only the tab needs to be printed.
 
 2. Install heatsets as indicated.
 Pay especial attention to the plate - it is very important for alignment that the inserts are flush or even a bit deep.
@@ -59,5 +60,15 @@ Run the gcode through inkscape/preprocess.py to make it acceptable by klipper.
 Install the adapter (but not the pen) on the head. Run your generated gcode file.
 
 The head should run the homing sequence and stop in the air. Install the pen so that it touches the bed, attach a page to be plotted using masking tape and unpause the printer.
+
+##### Changelog:
+
+**2 Mar 2023**:
+
+- Added support for cutter knife.
+- Knife and pen adapters are now interchangeable with less disassembly. In particular, the bolt holding the screw does not need to be removed.
+- Small improvements to the structure to make it easier to print.
+- Added location for nuts that can store mounting screws.
+
 
 Enjoy!
